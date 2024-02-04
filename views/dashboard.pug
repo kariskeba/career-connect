@@ -1,0 +1,120 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    title Career Connect - Student Dashboard
+    style.
+      body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      .navbar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .navbar h1 {
+        margin: 0;
+      }
+
+      .sidebar {
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        background-color: #333;
+        padding-top: 80px; /* Adjusted to account for navbar height */
+      }
+
+      .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .sidebar li {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .sidebar a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #555;
+        transition: background-color 0.3s;
+      }
+
+      .sidebar a:hover {
+        background-color: #555;
+      }
+
+      .content {
+        margin-left: 250px;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      table, th, td {
+        border: 1px solid #ddd;
+      }
+
+      th, td {
+        padding: 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #333;
+        color: #fff;
+      }
+  body
+    // Navbar
+    div.navbar
+      h1 DIT  Career Connect
+
+    // Sidebar
+    aside.sidebar
+      ul
+        li
+          a(href="#profile") Student Profile
+        li
+          a(href="/modules") Modules
+        li
+          a(href="#grades") Lecturers
+
+    // Content Area
+    section.content
+      // Placeholder content for demonstration
+      h2 Data Inserted!!!
+      table
+        tr
+          th Lecturers
+          th Modules
+          th Year of Study 
+          th Semester
+        tr
+          td Dr. Fimbombaya
+          td Digital Signal Processing
+          td Year 3
+          td Semester 1
+
+        tr
+          td Mr. Alfred
+          td Cybersecurity
+          td Year 3
+          td Semester 1

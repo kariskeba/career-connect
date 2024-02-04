@@ -1,0 +1,89 @@
+doctype html
+html
+  head
+    title DIT Career Connect
+    style.
+      /* Reset styles */
+      html, body, header, nav, ul, li {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+      }
+      nav {
+        display: flex;
+        justify-content: center; /* Align items horizontally to center */
+      }
+      nav ul {
+        list-style-type: none;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2em;
+        margin-bottom: 40px;
+      }
+
+       /* Style for the image */
+      .sample-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+
+      footer{
+        display: flex;
+        justify-content: center;
+      }
+
+  body
+    header
+      nav
+        ul
+          li
+            a(href='/about') About
+          li
+            a(href='/contact') Contact
+          li
+            a(href='/login') Login
+    main
+      h1 Welcome to DIT Career Connect
+      p Connect with professionals in your field and explore career opportunities.
+
+          img.sample-image(src='/images/img3.jpg', alt='Sample Image', class='sample-image') 
+
+    footer
+      p Copyright © 2024 Career Connect. All rights reserved.
+
+
